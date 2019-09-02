@@ -36,7 +36,7 @@ class Index extends Controller
 
 
 
-        $this->r=new Pay('https://yysyservice.com:20002','3BDAF00B6F374A01A4DFBE32257F7E05','1C1D365EEEAB40FD8E56901E27243DA0');
+        $this->r=new Pay('xxxx','xxxxx','xxxxxxxxxxxx');
 
         $this->user=new SysUsers();
         $this->tuserlog=new TUserLog();
