@@ -1,0 +1,234 @@
+---------------------------------------------------------------
+[ 2019-01-12T14:01:10+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/login
+[运行时间：0.128500s] [吞吐率：7.78req/s] [内存消耗：1,979.94kb] [文件加载：44]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'authorization' => 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ3MTg3MDMyLCJleHAiOjE1NDcyMzAyMzIsIm5iZiI6MTU0NzE4NzAzMiwidWlkIjo3LCJqdGkiOiJkNTNhYjJiODllY2NkNTgwOTdhYjQxMzA2OTdlY2U2NyIsImF1ZCI6IndhbGxldCJ9.JiIVVzHrAzBCUMqDtLovuTn_mSMOMzcGx7AKgKyuOHg',
+  'content-type' => 'text/x-plain-aes-json',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-12T14:12:07+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/login
+[运行时间：0.345500s] [吞吐率：2.89req/s] [内存消耗：2,268.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '205',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'f9rW6zleVR1gw8AHX8pvH3TLUEd36+FWWqRHwmsntNWvQapzigKzGcFPHGZPzyCi+8dGe0vTJ8Qi08En9pxqxppVfQWRRN+SbnrgGGlViMjE8J7fSXHZ5P435DfsgNkbCbwUF5pEIpanlT5/jM04XUnkSPgdKNmn5y1NL0McIOg=',
+  'phone' => '17855868623',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.010500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `sys_users`  SET `last_online_ip`='192.168.1.15'  WHERE  `id` = 7 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_online_user_temp` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] INSERT INTO `sys_online_user_temp` (`userid` , `token`) VALUES (7 , 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ3MjczNTI3LCJleHAiOjE1NDczMTY3MjcsIm5iZiI6MTU0NzI3MzUyNywidWlkIjo3LCJqdGkiOiJkZjUxMzZiNWMzNmE1YjhkZWY1MDE4YTY3MjExOWRkNiIsImF1ZCI6IndhbGxldCIsImh0dHA6XC9cL3NjaGVtYXMubWljcm9zb2Z0LmNvbVwvd3NcLzIwMDhcLzA2XC9pZGVudGl0eVwvY2xhaW1zXC9yb2xlIjoiUEhQQ2xpZW50In0.bHHWIXPEZoH0pdjEDTogBW67MwDhcN8KX7RFGOmQkVA') [ RunTime:0.041500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_online_device_temp` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] INSERT INTO `sys_online_device_temp` (`userid` , `device_type` , `device_name` , `ip`) VALUES (7 , 2 , 'Android4.4.2' , '192.168.1.15') [ RunTime:0.005500s ]
+---------------------------------------------------------------
+[ 2019-01-12T14:36:17+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/login
+[运行时间：1.326500s] [吞吐率：0.75req/s] [内存消耗：2,266.30kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '207',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'UVU9Pt6lTw5M1bDL0S/7QuGqp4UkNiXi+hXgDwc5QJWGETwQhPL9eGjb71NS2gPPI2YMBt/qb+45+p5ma05CkcYhEC9hRqUJUa5wPVxJwz1Uh6Q6JMqjxD5J6xIIRYo8neoBZ3Zj5UF8lXHxBWmqrAhUNbiUsyOfL9ehfNMmkt4=',
+  'phone' => '17855868623',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `sys_users`  SET `last_online_ip`='192.168.1.15'  WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_online_user_temp` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] INSERT INTO `sys_online_user_temp` (`userid` , `token`) VALUES (7 , 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ3Mjc0OTc2LCJleHAiOjE1NDczMTgxNzYsIm5iZiI6MTU0NzI3NDk3NiwidWlkIjo3LCJqdGkiOiIyOGU5YmUxODE3NDQ4YjI1NzMzZWY3MGY0MjJiMzczYSIsImF1ZCI6IndhbGxldCIsImh0dHA6XC9cL3NjaGVtYXMubWljcm9zb2Z0LmNvbVwvd3NcLzIwMDhcLzA2XC9pZGVudGl0eVwvY2xhaW1zXC9yb2xlIjoiUEhQQ2xpZW50In0.fuRNIXpYXe4WrZ0aFr7sD-x8JV1NkEhWN4M1Wwo2W8w') [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_online_device_temp` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `sys_online_device_temp` (`userid` , `device_type` , `device_name` , `ip`) VALUES (7 , 2 , 'Android4.4.2' , '192.168.1.15') [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2019-01-12T14:40:41+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/login
+[运行时间：1.316000s] [吞吐率：0.76req/s] [内存消耗：2,266.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '211',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'TcExRiU4T5+Smm2M+HMN9+XZNaFj6IcENNL4ASjo+XLxhSxCQ2zhEPgzGlkGZyqAnDVLpiqL5jYvD5H2sA1hBzPcTRHpZahtal4zZIYwuA4HgMuDIYZMvfR+UsFgxfM6Pu5s9n8i28M6/PHE4+M6TYn6jyYHaN3AsHf5wEYIim4=',
+  'phone' => '17855868623',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.006500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `sys_users`  SET `last_online_ip`='192.168.1.15'  WHERE  `id` = 7 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_online_user_temp` [ RunTime:0.004500s ]
+[ sql ] [ SQL ] INSERT INTO `sys_online_user_temp` (`userid` , `token`) VALUES (7 , 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ3Mjc1MjQwLCJleHAiOjE1NDczMTg0NDAsIm5iZiI6MTU0NzI3NTI0MCwidWlkIjo3LCJqdGkiOiI0ZWM3MWJhYzBjMzI2ZjAwY2JkYmQyYmRjYzMyYjMxNCIsImF1ZCI6IndhbGxldCIsImh0dHA6XC9cL3NjaGVtYXMubWljcm9zb2Z0LmNvbVwvd3NcLzIwMDhcLzA2XC9pZGVudGl0eVwvY2xhaW1zXC9yb2xlIjoiUEhQQ2xpZW50In0.CRc6Rauzhkj9YQtBLft6BNpFw4gZjhkDFz9FSlvSJMo') [ RunTime:0.030500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_online_device_temp` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] INSERT INTO `sys_online_device_temp` (`userid` , `device_type` , `device_name` , `ip`) VALUES (7 , 2 , 'Android4.4.2' , '192.168.1.15') [ RunTime:0.004500s ]
+---------------------------------------------------------------
+[ 2019-01-12T14:40:41+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/login
+[运行时间：0.108500s] [吞吐率：9.22req/s] [内存消耗：2,272.13kb] [文件加载：56]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '209',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'PUCmAOcN9iCnW6A+i2cz4yYGqNX9yCVczeKhAaU+f3uwGgMGda4Gbl6mht0xK41VR9OSAh9ynpvC8PPN1+nRFXL+SMVEcsIcD4kLT2f/ibUxWuGmXUtoQFZf+jsraz3i7CcphUJbcAuxMaesiIs9kN7J3VfNruJcy65Q3Oc85Tw=',
+  'phone' => '17855868623',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] UPDATE `sys_users`  SET `last_online_ip`='192.168.1.15'  WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_online_user_temp` [ RunTime:0.002000s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]

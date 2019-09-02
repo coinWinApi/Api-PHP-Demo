@@ -1,0 +1,963 @@
+---------------------------------------------------------------
+[ 2019-01-11T13:58:01+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/SemCheck
+[运行时间：0.598500s] [吞吐率：1.67req/s] [内存消耗：2,191.97kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'SemCheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '17855868623',
+  'type' => 'regin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->SemCheck[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.028500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:58:42+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/regin
+[运行时间：0.122000s] [吞吐率：8.20req/s] [内存消耗：2,136.67kb] [文件加载：46]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'regin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '193',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'hDOohiVNNWHSk9mAxph8sWQCUDpW5w8c+fhimT2PPTnPuu7V/eo4S2+d5FU38cFvXdFK+NH6B+bbhIGS66wNrz+o3BOHb54rOOUCsq3F8UFahKnTXjvFmRT3TsPUgKa8uknHHLgao2x0DCKsCPVvvD5W0anycHus7NsQX4+8n8o=',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->Regin[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `sys_users` (`phone` , `password`) VALUES ('17855868623' , 'e386c7039aa49826664d576eb798da21') [ RunTime:0.051000s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:58:43+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/regin
+[运行时间：0.050500s] [吞吐率：19.80req/s] [内存消耗：2,143.65kb] [文件加载：45]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'regin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '183',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'hI00e9AK4L6Yg5IvSxLCWldkZdHYdaOYp3PmOe5ga6BMZwS5eyl5ChlgzyziTb0EYP2bEoDx1Q6S05BG2yT7Ft7ok+5tK2TC1NBSWMuFSvI6OtXi12wfK0h2QcnRZXtOb+3EDlvjgHhDlAjyGdFsSS8QqXD0tTyrMH2Gbh5X4ds=',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->Regin[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:58:44+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/regin
+[运行时间：0.069500s] [吞吐率：14.39req/s] [内存消耗：2,143.65kb] [文件加载：45]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'regin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '193',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'c5wN+n74QnGrGq8uvn16OzEP4dGl0kEl7xCrbHKAjRvwO+g36V9wo68t7mH0+ZOUoojlyoT3SuZZbKD3sRcVO4ZReIFbx6nL8Dwd+TqozjS0R+3oSiVIm2c41jkN20vimLw+iGz2mo2/esaMRgRUmz1UxJTEA4BJr67vxJp2D0k=',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->Regin[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:10:32+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Login/login
+[运行时间：0.178500s] [吞吐率：5.60req/s] [内存消耗：2,224.25kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '207',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; OPPO R11 Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=2a5fjdbf0gl9jj9e5rh6vafup3',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'b72+yMPBF0a3OKKrMZ0ECeMZlwQqS6xsRYZFkgIHVt1AkRJUlsGtBwS2t80NTy4WfLj8Asrc9wxDTL+HtNtMwy79g1HwdsGW+klP79xGxOnl84Pie0WHRxGMNhbUf21JObuqRA/PJPRDPfxIGdT2qFNHoNe9HHkftu/3OiwdcNM=',
+  'phone' => '17855868623',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623'  AND `password` = '18d7312cec74ff5dde25a4ee8d463d50' LIMIT 1 [ RunTime:0.006500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '17855868623' LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] UPDATE `sys_users`  SET `last_online_ip`='192.168.1.15'  WHERE  `id` = 7 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_online_user_temp` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] INSERT INTO `sys_online_user_temp` (`userid` , `token`) VALUES (7 , 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ3MTg3MDMyLCJleHAiOjE1NDcyMzAyMzIsIm5iZiI6MTU0NzE4NzAzMiwidWlkIjo3LCJqdGkiOiJkNTNhYjJiODllY2NkNTgwOTdhYjQxMzA2OTdlY2U2NyIsImF1ZCI6IndhbGxldCJ9.JiIVVzHrAzBCUMqDtLovuTn_mSMOMzcGx7AKgKyuOHg') [ RunTime:0.004500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_online_device_temp` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] INSERT INTO `sys_online_device_temp` (`userid` , `device_type` , `device_name` , `ip`) VALUES (7 , 2 , 'Android4.4.2' , '192.168.1.15') [ RunTime:0.008500s ]
+---------------------------------------------------------------
+[ 2019-01-11T15:14:21+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.105500s] [吞吐率：9.48req/s] [内存消耗：2,109.94kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]openssl_public_encrypt(): key parameter is not a valid public key[D:\PHP\WalletApp\WalletAppServer\application\index\common.php:219]
+---------------------------------------------------------------
+[ 2019-01-11T15:16:12+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.058500s] [吞吐率：17.09req/s] [内存消耗：2,071.18kb] [文件加载：46]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:16:37+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.058000s] [吞吐率：17.24req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:16:52+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.053000s] [吞吐率：18.87req/s] [内存消耗：2,093.70kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:17:29+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.054000s] [吞吐率：18.52req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:26:04+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.059500s] [吞吐率：16.81req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:08+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.068500s] [吞吐率：14.60req/s] [内存消耗：2,093.59kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:12+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.048000s] [吞吐率：20.83req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:13+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.064500s] [吞吐率：15.50req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:13+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.040000s] [吞吐率：25.00req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:13+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.047500s] [吞吐率：21.05req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:14+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.037500s] [吞吐率：26.67req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:14+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.037000s] [吞吐率：27.03req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:14+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.046500s] [吞吐率：21.51req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:15+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.042500s] [吞吐率：23.53req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:15+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.037500s] [吞吐率：26.67req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:16+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.039000s] [吞吐率：25.64req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:16+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.048000s] [吞吐率：20.83req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:17+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.050000s] [吞吐率：20.00req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T15:42:17+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.058500s] [吞吐率：17.09req/s] [内存消耗：2,093.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T17:09:02+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.496000s] [吞吐率：2.02req/s] [内存消耗：2,125.71kb] [文件加载：48]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T17:09:10+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：0.079000s] [吞吐率：12.66req/s] [内存消耗：2,125.71kb] [文件加载：48]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T17:12:30+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：30.098000s] [吞吐率：0.03req/s] [内存消耗：2,170.12kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 30 seconds exceeded[D:\PHP\WalletApp\WalletAppServer\extend\curl\httplib.php:102]
+---------------------------------------------------------------
+[ 2019-01-11T17:13:22+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：30.063000s] [吞吐率：0.03req/s] [内存消耗：2,170.12kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 30 seconds exceeded[D:\PHP\WalletApp\WalletAppServer\extend\curl\httplib.php:102]
+---------------------------------------------------------------
+[ 2019-01-11T17:13:39+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：17.848000s] [吞吐率：0.06req/s] [内存消耗：2,125.89kb] [文件加载：48]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-11T17:20:03+08:00 ] 127.0.0.1 GET 127.0.0.1:8087/index/Index/test
+[运行时间：12.727000s] [吞吐率：0.08req/s] [内存消耗：2,125.89kb] [文件加载：48]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8087',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7hdr5qapi0bps6d81vlkn6lk8o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File

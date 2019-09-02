@@ -1,0 +1,21 @@
+---------------------------------------------------------------
+[ 2019-08-12T13:21:31+00:00 ] 198.108.67.48 GET 115.236.73.22:8999/
+[运行时间：0.004683s] [吞吐率：213.54req/s] [内存消耗：371.15kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '115.236.73.22:8999',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->_empty[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

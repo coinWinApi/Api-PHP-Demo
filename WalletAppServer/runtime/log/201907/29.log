@@ -1,0 +1,116 @@
+---------------------------------------------------------------
+[ 2019-07-29T02:21:53+00:00 ] 115.194.122.34 GET yinuoai.com:8999/index.php/index/Index/getCoinaddress
+[运行时间：0.002246s] [吞吐率：445.21req/s] [内存消耗：373.77kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinaddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5mo8bt4uatu5lnpbsuitask762; zentaosid=qjtqt1ikgsujirmqdgt4k2hoj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinaddress[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-29T10:24:13+08:00 ] 115.194.122.34 OPTIONS yinuoai.com:8999/index.php/index/Login/loginSem
+[运行时间：0.018448s] [吞吐率：54.21req/s] [内存消耗：376.52kb] [文件加载：44]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'loginSem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://127.0.0.1:5500',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:5500/html/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->loginSem[ /var/www/html/WalletAppServer/application/index/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-29T10:24:13+08:00 ] 115.194.122.34 POST yinuoai.com:8999/index.php/index/Login/loginSem
+[运行时间：0.033526s] [吞吐率：29.83req/s] [内存消耗：428.63kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'loginSem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1:5500',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1:5500/html/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->loginSem[ /var/www/html/WalletAppServer/application/index/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]could not find driver[/var/www/html/WalletAppServer/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2019-07-29T20:59:02+00:00 ] 198.108.67.48 GET 115.236.73.22:8999/
+[运行时间：0.004561s] [吞吐率：219.25req/s] [内存消耗：371.15kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '115.236.73.22:8999',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->_empty[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

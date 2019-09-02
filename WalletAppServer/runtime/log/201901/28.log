@@ -1,0 +1,537 @@
+---------------------------------------------------------------
+[ 2019-01-28T14:03:53+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.059500s] [吞吐率：16.81req/s] [内存消耗：1,993.24kb] [文件加载：45]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NDgyMjA1LCJleHAiOjE1NDg1MjU0MDUsIm5iZiI6MTU0ODQ4MjIwNSwidWlkIjoxMSwianRpIjoiNGFiZmEzMjExMjc4MmZiZDIwMTg0OGVmNjU3OGYxMzkiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.NLITYpzFPTtO6CTyRGlIllORwNBzJEFwP36RkOhieQQ',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-28T14:05:52+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.080500s] [吞吐率：12.42req/s] [内存消耗：1,993.25kb] [文件加载：45]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NDgyMjA1LCJleHAiOjE1NDg1MjU0MDUsIm5iZiI6MTU0ODQ4MjIwNSwidWlkIjoxMSwianRpIjoiNGFiZmEzMjExMjc4MmZiZDIwMTg0OGVmNjU3OGYxMzkiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.NLITYpzFPTtO6CTyRGlIllORwNBzJEFwP36RkOhieQQ',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-28T15:49:46+08:00 ] 192.168.1.118 OPTIONS 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.109000s] [吞吐率：9.17req/s] [内存消耗：1,991.79kb] [文件加载：45]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'accept, x-requested-with',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://127.0.0.1:8020',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.138 Safari/537.36',
+  'referer' => 'http://127.0.0.1:8020/WalletAppWeb/user.html',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-28T16:10:06+08:00 ] 192.168.1.118 OPTIONS 192.168.1.15:8087/index/Index/SendCoin
+[运行时间：0.100000s] [吞吐率：10.00req/s] [内存消耗：2,263.99kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'SendCoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'accept, x-requested-with, content-type',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://127.0.0.1:8020',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.138 Safari/537.36',
+  'referer' => 'http://127.0.0.1:8020/WalletAppWeb/fill_in.html',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T16:43:38+08:00 ] 192.168.1.118 OPTIONS 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.055000s] [吞吐率：18.18req/s] [内存消耗：1,991.79kb] [文件加载：45]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'accept, x-requested-with',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://127.0.0.1:8020',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.138 Safari/537.36',
+  'referer' => 'http://127.0.0.1:8020/WalletAppWeb/user.html',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-28T19:57:44+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.071000s] [吞吐率：14.08req/s] [内存消耗：2,147.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NjczNjUxLCJleHAiOjE1NDg3MTY4NTEsIm5iZiI6MTU0ODY3MzY1MSwidWlkIjoxNCwianRpIjoiOTE1YWE3Njc4ODQzMTBlMjA2MTgyNGRhNDUyN2Q5ZWQiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.wJx0BnhvX0YAtqE_swRswePTh1F_V9FkfNT7JVkDfyQ',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T19:59:21+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.073500s] [吞吐率：13.61req/s] [内存消耗：2,147.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NjczNjUxLCJleHAiOjE1NDg3MTY4NTEsIm5iZiI6MTU0ODY3MzY1MSwidWlkIjoxNCwianRpIjoiOTE1YWE3Njc4ODQzMTBlMjA2MTgyNGRhNDUyN2Q5ZWQiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.wJx0BnhvX0YAtqE_swRswePTh1F_V9FkfNT7JVkDfyQ',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T20:01:16+08:00 ] 192.168.1.15 GET 192.168.1.15:8087/index/Index/ReceivedCoin
+[运行时间：0.069500s] [吞吐率：14.39req/s] [内存消耗：2,263.35kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'ReceivedCoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T20:01:25+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Index/ReceivedCoin
+[运行时间：0.082000s] [吞吐率：12.20req/s] [内存消耗：2,266.11kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'ReceivedCoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=pro5sdltm1o8vpl5ausqvqm5m3',
+)
+[ info ] [ PARAM ] array (
+  'symbol' => 'btc',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T20:01:29+08:00 ] 192.168.1.15 POST 192.168.1.15:8087/index/Index/ReceivedCoin
+[运行时间：0.049500s] [吞吐率：20.20req/s] [内存消耗：2,266.11kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'ReceivedCoin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json',
+  'origin' => 'file://',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=pro5sdltm1o8vpl5ausqvqm5m3',
+)
+[ info ] [ PARAM ] array (
+  'symbol' => 'btc',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T20:02:49+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.089000s] [吞吐率：11.24req/s] [内存消耗：2,147.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NjczOTI4LCJleHAiOjE1NDg3MTcxMjgsIm5iZiI6MTU0ODY3MzkyOCwidWlkIjoxNCwianRpIjoiZTY5Y2Q0MzgzMDdmMGJmNTQ0NzBmMmY0MTdhOTJhYjMiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.kWDeFy5dEz2i21D8jEoaGyrJsKFUcU_RbSERs-aobOw',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T20:04:17+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.074000s] [吞吐率：13.51req/s] [内存消耗：2,147.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NjczNTc0LCJleHAiOjE1NDg3MTY3NzQsIm5iZiI6MTU0ODY3MzU3NCwidWlkIjoxNCwianRpIjoiYTE3ZmQ5NmI5NjUzMWU3NGExOTQxMzllMzMyMTYyOTMiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.4WDf9ESpEkCKUBRHAN3WY0J6d5GnzQLq0eZKQy1oL3o',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T20:05:06+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.063000s] [吞吐率：15.87req/s] [内存消耗：2,147.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NjczNTc0LCJleHAiOjE1NDg3MTY3NzQsIm5iZiI6MTU0ODY3MzU3NCwidWlkIjoxNCwianRpIjoiYTE3ZmQ5NmI5NjUzMWU3NGExOTQxMzllMzMyMTYyOTMiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.4WDf9ESpEkCKUBRHAN3WY0J6d5GnzQLq0eZKQy1oL3o',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T20:09:41+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.078000s] [吞吐率：12.82req/s] [内存消耗：2,147.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NjczOTI4LCJleHAiOjE1NDg3MTcxMjgsIm5iZiI6MTU0ODY3MzkyOCwidWlkIjoxNCwianRpIjoiZTY5Y2Q0MzgzMDdmMGJmNTQ0NzBmMmY0MTdhOTJhYjMiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.kWDeFy5dEz2i21D8jEoaGyrJsKFUcU_RbSERs-aobOw',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T20:10:01+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.060000s] [吞吐率：16.67req/s] [内存消耗：2,147.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NjczNTc0LCJleHAiOjE1NDg3MTY3NzQsIm5iZiI6MTU0ODY3MzU3NCwidWlkIjoxNCwianRpIjoiYTE3ZmQ5NmI5NjUzMWU3NGExOTQxMzllMzMyMTYyOTMiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.4WDf9ESpEkCKUBRHAN3WY0J6d5GnzQLq0eZKQy1oL3o',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-01-28T20:25:15+08:00 ] 192.168.1.131 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.064000s] [吞吐率：15.63req/s] [内存消耗：2,147.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '383',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4NjczOTI4LCJleHAiOjE1NDg3MTcxMjgsIm5iZiI6MTU0ODY3MzkyOCwidWlkIjoxNCwianRpIjoiZTY5Y2Q0MzgzMDdmMGJmNTQ0NzBmMmY0MTdhOTJhYjMiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.kWDeFy5dEz2i21D8jEoaGyrJsKFUcU_RbSERs-aobOw',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'wallet'[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:295]

@@ -1,0 +1,4263 @@
+---------------------------------------------------------------
+[ 2019-08-06T23:56:08+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003776s] [吞吐率：264.84req/s] [内存消耗：373.08kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:08+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.486377s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205993s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.141161s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136879s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:11+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：0.004429s] [吞吐率：225.79req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:11+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：30.271992s] [吞吐率：0.03req/s] [内存消耗：374.54kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'USDT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:11+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.476435s] [吞吐率：2.10req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.202724s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.136746s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.134864s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:14+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.004423s] [吞吐率：226.10req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:14+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.472739s] [吞吐率：2.12req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.200876s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.135997s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.133874s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:17+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.480437s] [吞吐率：2.08req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205248s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137095s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136470s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:20+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.002382s] [吞吐率：419.85req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:20+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.488038s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.208101s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139192s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138150s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:23+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.619031s] [吞吐率：1.62req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.261105s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.178274s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.175110s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:26+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003778s] [吞吐率：264.69req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:26+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.488042s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.207568s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139417s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138787s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:29+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.487891s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205307s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138961s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.139241s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:32+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.002916s] [吞吐率：342.92req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:32+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.485165s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205113s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139194s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137464s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:35+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.481816s] [吞吐率：2.08req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203733s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137644s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.135943s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:38+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.001046s] [吞吐率：956.08req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:38+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.475320s] [吞吐率：2.10req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.202090s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.136155s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.135405s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:41+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：0.003354s] [吞吐率：298.15req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:41+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：30.275972s] [吞吐率：0.03req/s] [内存消耗：374.54kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'USDT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:41+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.477057s] [吞吐率：2.10req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203331s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.136841s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.134877s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:44+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.004064s] [吞吐率：246.06req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:44+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.487047s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.207628s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137617s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138037s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:47+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.488050s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205354s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140289s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137815s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:50+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003740s] [吞吐率：267.37req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:50+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.487785s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.206749s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140404s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138417s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:53+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.488728s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.207357s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138811s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138142s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:56+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003418s] [吞吐率：292.57req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:56:56+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.481662s] [吞吐率：2.08req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203638s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139794s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136553s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:56:59+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.483653s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204048s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137961s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137245s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:02+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003718s] [吞吐率：268.97req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:02+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.490470s] [吞吐率：2.04req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.207557s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.142561s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138745s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:05+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.482294s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203370s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138114s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136318s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:08+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003057s] [吞吐率：327.12req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:08+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.477648s] [吞吐率：2.09req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.202735s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137463s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.135799s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:11+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：0.003217s] [吞吐率：310.85req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:11+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：30.253163s] [吞吐率：0.03req/s] [内存消耗：374.54kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'USDT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:11+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.488314s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.208024s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140216s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138298s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:14+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003298s] [吞吐率：303.21req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:14+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.481479s] [吞吐率：2.08req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203691s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139587s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136477s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:17+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.491305s] [吞吐率：2.04req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.209061s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140790s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138790s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:20+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.001313s] [吞吐率：761.63req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:20+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.489098s] [吞吐率：2.04req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.207206s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140254s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.139990s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:23+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.485578s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.206414s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138896s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136297s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:26+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.002236s] [吞吐率：447.20req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:26+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.477347s] [吞吐率：2.09req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203116s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137574s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.134963s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:29+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.490948s] [吞吐率：2.04req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.207356s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140502s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138519s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:32+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003763s] [吞吐率：265.75req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:32+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.481307s] [吞吐率：2.08req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204501s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138738s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136370s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:35+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.476487s] [吞吐率：2.10req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.201372s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.136043s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.134596s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:38+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003652s] [吞吐率：273.83req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:38+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.620825s] [吞吐率：1.61req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.263263s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.179527s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.176333s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:41+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：0.003704s] [吞吐率：269.97req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:41+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：30.268182s] [吞吐率：0.03req/s] [内存消耗：374.54kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'USDT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:41+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.485500s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205554s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139439s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138465s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:44+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.004436s] [吞吐率：225.44req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:44+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.480526s] [吞吐率：2.08req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204018s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138048s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136604s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:47+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.489025s] [吞吐率：2.04req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205917s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139341s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138016s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:50+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003698s] [吞吐率：270.41req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:50+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.484625s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.206704s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138608s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137588s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:53+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.484200s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203606s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139273s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136866s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:56+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003746s] [吞吐率：266.95req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:57:56+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.484437s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205033s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140450s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137397s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:57:59+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.494365s] [吞吐率：2.02req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.209102s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.141811s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.140142s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:02+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003565s] [吞吐率：280.50req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:02+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.483865s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205346s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139223s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137767s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:05+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.483692s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204624s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137745s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136888s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:08+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003774s] [吞吐率：264.98req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:08+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.488699s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.207318s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140823s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138794s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:11+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：0.003733s] [吞吐率：267.87req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:11+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：30.263766s] [吞吐率：0.03req/s] [内存消耗：374.54kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'USDT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:11+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.483321s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205093s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139176s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137337s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:14+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.004607s] [吞吐率：217.06req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:14+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.485759s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.206563s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138463s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.139085s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:17+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.491236s] [吞吐率：2.04req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.208982s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138364s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.139676s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:20+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003795s] [吞吐率：263.51req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:20+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.491445s] [吞吐率：2.03req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.208159s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.141979s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.139933s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:23+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.483295s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204267s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137637s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136937s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:26+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003369s] [吞吐率：296.82req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:26+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.476297s] [吞吐率：2.10req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203335s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.136584s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.134720s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:29+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.491857s] [吞吐率：2.03req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.208615s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140882s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.139477s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:32+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003081s] [吞吐率：324.56req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:32+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.484728s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205322s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139607s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138128s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:35+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.484995s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204026s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140298s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136466s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:38+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.002388s] [吞吐率：418.76req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:38+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.480296s] [吞吐率：2.08req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204198s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138798s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.135570s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:41+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：0.003688s] [吞吐率：271.14req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:41+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：30.265981s] [吞吐率：0.03req/s] [内存消耗：374.54kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'USDT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:41+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.484223s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204648s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140059s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136499s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:44+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003898s] [吞吐率：256.55req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:44+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.479553s] [吞吐率：2.09req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204321s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137235s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136275s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:47+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.487498s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205479s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138280s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.139143s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:50+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003309s] [吞吐率：302.21req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:50+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.491033s] [吞吐率：2.04req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.209841s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140158s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.139466s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:53+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.625429s] [吞吐率：1.60req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.265104s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.178407s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.177403s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:56+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003764s] [吞吐率：265.68req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:58:56+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.487792s] [吞吐率：2.05req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.206646s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140930s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137556s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:58:59+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.486583s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205225s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138574s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138175s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:02+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003651s] [吞吐率：273.89req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:02+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.482030s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203020s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.140256s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137080s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:05+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.477142s] [吞吐率：2.10req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.200937s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.136505s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.135129s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:08+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003066s] [吞吐率：326.15req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:08+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.479726s] [吞吐率：2.08req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204129s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137154s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136027s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:11+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：0.002876s] [吞吐率：347.73req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:11+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：30.271595s] [吞吐率：0.03req/s] [内存消耗：374.54kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'USDT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:11+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.480934s] [吞吐率：2.08req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203104s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137800s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136859s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:14+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.002195s] [吞吐率：455.61req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:14+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.483468s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204205s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138335s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138227s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:17+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.489193s] [吞吐率：2.04req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.207321s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139709s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.139586s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:20+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003586s] [吞吐率：278.86req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:20+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.477780s] [吞吐率：2.09req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.202080s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.136261s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.134758s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:23+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.482889s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204472s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137921s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.135885s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:26+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003300s] [吞吐率：303.01req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:26+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.473888s] [吞吐率：2.11req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.200583s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.135487s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.134392s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:29+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.475143s] [吞吐率：2.10req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.200566s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.136026s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.134554s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:32+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.002400s] [吞吐率：416.68req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:32+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.483738s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204738s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138301s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.138213s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:35+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.493519s] [吞吐率：2.03req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.209345s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.141113s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.141223s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:38+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.002590s] [吞吐率：386.11req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:38+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.622515s] [吞吐率：1.61req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.264596s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.178376s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.176664s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:41+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：0.003541s] [吞吐率：282.41req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:41+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getCoinrate
+[运行时间：30.270455s] [吞吐率：0.03req/s] [内存消耗：374.54kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getCoinrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'USDT',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getCoinrate[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:41+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.478526s] [吞吐率：2.09req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.201957s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137911s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.135528s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:44+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.004470s] [吞吐率：223.72req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:44+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.474603s] [吞吐率：2.11req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.200977s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.135727s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136028s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:47+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.485454s] [吞吐率：2.06req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204693s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138389s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137801s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:50+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003720s] [吞吐率：268.81req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:50+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.624758s] [吞吐率：1.60req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.265185s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.178580s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.177782s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:53+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.483202s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204855s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.137418s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.136112s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:56+00:00 ] 115.236.73.22 OPTIONS yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.003776s] [吞吐率：264.84req/s] [内存消耗：373.13kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T23:59:56+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.484012s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.205424s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.139235s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137795s ]
+---------------------------------------------------------------
+[ 2019-08-06T23:59:59+00:00 ] 115.236.73.22 POST yinuoai.com:8999/index.php/index/Index/getQuotallog
+[运行时间：0.483963s] [吞吐率：2.07req/s] [内存消耗：435.78kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getQuotallog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yinuoai.com:8999',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.201:10002',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://192.168.1.201:10002/demo/html/USDT-pay-wait.html?type=usdt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getQuotallog[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.204846s ] mysql:host=52.141.23.71;port=49131;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user_log` [ RunTime:0.138377s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user_log` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.137065s ]

@@ -1,0 +1,25 @@
+---------------------------------------------------------------
+[ 2019-07-24T04:24:56+00:00 ] 202.29.57.103 POST /
+[运行时间：0.008556s] [吞吐率：116.88req/s] [内存消耗：371.23kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/WalletAppServer/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '51',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => 0,
+  'jsonrpc' => '2.0',
+  'method' => 'eth_blockNumber',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->_empty[ /var/www/html/WalletAppServer/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

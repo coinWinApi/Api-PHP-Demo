@@ -1,0 +1,115 @@
+---------------------------------------------------------------
+[ 2019-08-26T03:54:50+00:00 ] 172.16.10.117 POST 172.16.10.117:7333/index.php/index/Apicallback/UpquotaAPI?accessKey=3BDAF00B6F374A01A4DFBE32257F7E05&openid=1&orderId=1376921887703575&remark=1566789722&timestamp=1566790573929&confirm=1&sign=M9ZhKgcZvNQTf8Dv10WmmKL910r0nOa+Gogq2AVkHc8=
+[运行时间：0.155000s] [吞吐率：6.45req/s] [内存消耗：2,191.50kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Apicallback',
+    2 => 'UpquotaAPI',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/plain',
+  'user-agent' => 'PostmanRuntime/7.15.2',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f238f9ef-8a91-41eb-bd07-9e8388e87a99',
+  'host' => '172.16.10.117:7333',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '215',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'accessKey' => '3BDAF00B6F374A01A4DFBE32257F7E05',
+  'openid' => '1',
+  'orderId' => '1376921887703575',
+  'remark' => '1566789722',
+  'timestamp' => '1566790573929',
+  'confirm' => '1',
+  'sign' => 'M9ZhKgcZvNQTf8Dv10WmmKL910r0nOa Gogq2AVkHc8=',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Apicallback->UpquotaAPI[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Apicallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014000s ] mysql:host=127.0.0.1;port=3306;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] select id from sys_users where id=1 [ RunTime:0.005000s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', =1 where orderId=1376921887703575' at line 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-08-26T03:55:32+00:00 ] 172.16.10.117 POST 172.16.10.117:7333/index.php/index/Apicallback/UpquotaAPI?accessKey=3BDAF00B6F374A01A4DFBE32257F7E05&openid=1&orderId=1376921887703575&remark=1566789722&timestamp=1566790573929&confirm=1&sign=M9ZhKgcZvNQTf8Dv10WmmKL910r0nOa+Gogq2AVkHc8=
+[运行时间：0.283000s] [吞吐率：3.53req/s] [内存消耗：1,996.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Apicallback',
+    2 => 'UpquotaAPI',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/plain',
+  'user-agent' => 'PostmanRuntime/7.15.2',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '48c82270-ea00-4ca8-9fee-cd6ddb41ab29',
+  'host' => '172.16.10.117:7333',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '215',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'accessKey' => '3BDAF00B6F374A01A4DFBE32257F7E05',
+  'openid' => '1',
+  'orderId' => '1376921887703575',
+  'remark' => '1566789722',
+  'timestamp' => '1566790573929',
+  'confirm' => '1',
+  'sign' => 'M9ZhKgcZvNQTf8Dv10WmmKL910r0nOa Gogq2AVkHc8=',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Apicallback->UpquotaAPI[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Apicallback.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.090000s ] mysql:host=127.0.0.1;port=3306;dbname=webmysql;charset=utf8
+[ sql ] [ SQL ] select id from sys_users where id=1 [ RunTime:0.135000s ]
+[ sql ] [ SQL ] update t_user_log2 set confirm=1 where orderId=1376921887703575 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] update sys_users as a,t_user_log2 as b  set a.quota=a.quota+b.quota  where a.id=b.userid and  b.orderId=1376921887703575 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2019-08-26T06:33:54+00:00 ] 172.16.10.117 POST 172.16.10.117:7333/index.php/index/Apicallback/UpquotaAPI?accessKey=3BDAF00B6F374A01A4DFBE32257F7E05&openid=1&orderId=1377546805445143&remark=1566789722&timestamp=1566798991&confirm=1&sign=tBY6qPzq05biFlSC5ETvlUVAKxz/
+[运行时间：0.063000s] [吞吐率：15.87req/s] [内存消耗：1,949.10kb] [文件加载：42]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Apicallback',
+    2 => 'UpquotaAPI',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/plain',
+  'user-agent' => 'PostmanRuntime/7.15.2',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ec1f1cd4-e78c-4324-882e-01bf9650e049',
+  'host' => '172.16.10.117:7333',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '215',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'accessKey' => '3BDAF00B6F374A01A4DFBE32257F7E05',
+  'openid' => '1',
+  'orderId' => '1377546805445143',
+  'remark' => '1566789722',
+  'timestamp' => '1566798991',
+  'confirm' => '1',
+  'sign' => 'tBY6qPzq05biFlSC5ETvlUVAKxz/',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Apicallback->UpquotaAPI[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Apicallback.php ]
+[ info ] [ LOG ] INIT File

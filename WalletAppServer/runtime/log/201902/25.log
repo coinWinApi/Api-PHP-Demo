@@ -1,0 +1,620 @@
+---------------------------------------------------------------
+[ 2019-02-25T14:29:05+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/checktoken
+[运行时间：0.163000s] [吞吐率：6.13req/s] [内存消耗：2,001.41kb] [文件加载：45]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'checktoken',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '420',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ5eXN5IiwiaWF0IjoxNTQ4ODM5Njk0LCJleHAiOjE1NDg4ODI4OTQsIm5iZiI6MTU0ODgzOTY5NCwidWlkIjoxNCwianRpIjoiMWYxYjY2Y2ZmNmY4OTNmZGY0MWZhNDU2ODJhMmM3NTQiLCJhdWQiOiJ3YWxsZXQiLCJodHRwOlwvXC9zY2hlbWFzLm1pY3Jvc29mdC5jb21cL3dzXC8yMDA4XC8wNlwvaWRlbnRpdHlcL2NsYWltc1wvcm9sZSI6IlBIUENsaWVudCJ9.HY1EJ9dZCGkYw-Wvs1-8f_T9QJIXwdhMrSoSREWn3qU',
+  'key' => '5c52KbiD7xNSMdTC5PdKDTjXwC4AFyrb',
+  'version' => '1.0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->checktoken[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-25T14:29:19+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：1.180000s] [吞吐率：0.85req/s] [内存消耗：2,319.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'content-length' => '261',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'GuQjrzoj1LPaUMh3X2PG0y5QIk7inB0HBJ1JmuGVWeItZ/icrW1O1qBO+2wMGJK+o8bBdo6uQTWK50zfO678tKCifMrbQq72sTp5KgXE7GowT+R+dkRn+Gc8zwkgs11ERjGmT+d8AARbc/Or1npnjnBHuZxJt+qqTgLCHXYalmk=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:21+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：0.949000s] [吞吐率：1.05req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '255',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'Zx+5mDrViGiU3Dp5L7iAS/7STb28X5XtrIorLMnq0OqC99YRTynRK+tbgrquO9btUs6lmHegWdcTdy86NrptnGr7uOYzyZNngkL/4pAgF1s0x0dQv28aJ/UTentD4LBPd7qhkloeNmaz/SpqmwamcXe0kcZLuYkQIO0ygdJvCVY=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:23+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：1.388500s] [吞吐率：0.72req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '259',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'UHIGQgz8/2h/xgLYettVJV7sw5X/nug18emavWvcjpwarMrHJDm/puK7H9Ky1yyxJVhngPx/p7IdJisloRgTRR/eq26ia8MmwN+DysfzLx2rNspMd7IXfnYn3BYs8C67CGcBaiEM5bMcOT3hKiVrTxtvgoxUv+WisQKkYqqirZo=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:24+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：1.836000s] [吞吐率：0.54req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '251',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'gNdwDwSOFsvuGWO1fReVSVORLYXwp2P5Mx72v15Vfxm0lfgvsf6/Y1ViBf6s1ViCZDr09sZ2d5G/FVyfU+cKbLYv26qo4qmXhg0Shxo9KOZYLNiyAfuva4Qx6JTQ4rhyUHKJN95slAyY3gt0pIfcqb4cZGq+B0W5aLgTpmqYqeM=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:26+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：3.164500s] [吞吐率：0.32req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '253',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'og/5O6zEYlcaJIt4Pc4rHUsSFresMntiP/HqFbW0FwflzlU6Vdxu0kFwzBSX5XzjdAaXBrTtsinm8C86dTbbIZgJjigPRnMdXxbaPWIGvgSjvudO8wKhBALXKOhgtQ49E+zed/xXIMY0uJB+xiupDxNYbpCKJzzSVHCIJRjDzKs=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.003000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:27+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：4.676000s] [吞吐率：0.21req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '251',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'M6udsxG4SjegnLhGlVxLRKkkgncv0Is0rBiVAjOWsRcFjMnvHE3jL6WuhmMB/UE+KZd6vl1+QDHDUinx/G0T5L2JMfntcpCbnKGsJGLygM2NAJYLc0Kmi7EJMiovOrtz140duHqHbVWRMvLqQ8DSpT9XwPrd63NTWrhoBilVnpg=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.003000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:28+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：5.364000s] [吞吐率：0.19req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '259',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'f7TLxHrT0wZS8x4wvhUR8dKbI0Z/PXgGAxmdeFNncRIdMJOLLauR/JAZgMer4OuYZVsIwvHyTOTZvFbAZD4VHyk+Cm/u3qUoeHh1rA6GQMK4jXnsW+ScjOqIamN0qNeFZps8vjnuzJPs1zZM6n4bwUWbpwM4W+I8fDhSx+7/hto=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:29+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：5.080500s] [吞吐率：0.20req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '253',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'GrnmVWwSwmF2fTKHnPUhiksIsXx0NAFt5UfxSlTz3B4YB38GL/Y6tv/sC2xEfBiqdtwHSYhDH4Yt+FR4Xc8UeYVc02xQZj37dAZEXBJVgGUtzteLFX7s5T0vnvMhFCIonDGsSc0/cj4Sq8dEHjkIBYTjJhA2xZNV4dUt9/32Ya0=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:31+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：5.175000s] [吞吐率：0.19req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '253',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'R5U9491PU7i56EQQ5eTe+iZMuxAY9YRtWy9ehW1yNFrr5x33sv+wQdiDeSvQure8EplCP+1iPk1ipBQFMGQCg0QNzlmUTlTRdj2PXBPzyhefwuMLmXaICkwrkoo2cZvw4dL0En+fNFjTSILpkvTvtDrYyurNOCpxb/d3FR4lM7g=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:32+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：4.671000s] [吞吐率：0.21req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '253',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'Py/3dDg0qIL1VPp/C2GKlMjEfYKEnMj3Zp9wNxoxNYR/hPsHI7Yj1k7XLPApHu+E4bPO9j0lFxqXGh08SPjVIjTb7lXNScT6FBHuIe6dKQFWX6g8BWxrlVi0m2SQAFEY4CEmGxmEhEQ3OH/N29IhkUKlivavTWDc956J9EK1McY=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.003500s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:33+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：4.996000s] [吞吐率：0.20req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '253',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'jUNirdXwtwYeiETe46+VxePq6W8GL1Q9pOP4B3BQKxSE1UPW4gAz3v89G3xGToi8huSIpOR4jXMYWOgb4no6m+34D8Qm5sg0VMAIZ8SmTXG9IcDxbIjwR0blNuzCSkkp3zfXuJNTIyZ+SPFMdp2lgeUTWL3XTSwr38i/tbb/dZA=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.003000s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-02-25T14:29:35+08:00 ] 192.168.1.182 POST 192.168.1.15:8087/index/Login/login
+[运行时间：5.511500s] [吞吐率：0.18req/s] [内存消耗：2,320.41kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.15:8087',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'file://',
+  'cookie' => 'PHPSESSID=2c1pdt6kb9mgmbtvo608jbfivs',
+  'content-length' => '257',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Html5Plus/1.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'FWEAn2S+lmyuQGuTjW8XoFvKmqzx8s7oD/6CK6oj07MTpPxL7HqPPFEgyO3uv4HY+20Rd/K3nPkojFKCtS8uj8t96KPlrI8lSo4IUr/aHwBjOBJRL5LBVDZN1gzqS0rtE1m9BcsN4ap7RvP8lmcwt0i+IV3jxbCIQr+ViXshiIM=',
+  'phone' => '15158875646',
+  'version' => '1.0',
+  'login_device' => 'iOS|11.4.1|Apple',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011500s ] mysql:host=192.168.1.108;port=3306;dbname=yysy_wallet;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sys_users` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646'  AND `password` = '0d023af1f70616c1fcbccff3d44e7048' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `sys_users` WHERE  `phone` = '15158875646' LIMIT 1 [ RunTime:0.002500s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'last_online_ip' at row 1[D:\PHP\WalletApp\WalletAppServer\thinkphp\library\think\db\Connection.php:453]

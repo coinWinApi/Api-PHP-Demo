@@ -1,0 +1,123 @@
+---------------------------------------------------------------
+[ 2019-08-24T11:18:40+08:00 ] 172.16.10.117 OPTIONS 172.16.10.117:7333//index/Index/getPayOrderHistory
+[运行时间：0.106000s] [吞吐率：9.43req/s] [内存消耗：1,298.84kb] [文件加载：38]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getPayOrderHistory',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.10.117:7333',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'access-control-request-headers' => 'content-type',
+  'origin' => 'http://172.16.10.13:8020',
+  'referer' => 'http://172.16.10.13:8020/bizhifuweb/demo/html/bill.html?id=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-24T03:18:40+00:00 ] 172.16.10.117 POST 172.16.10.117:7333//index/Index/getPayOrderHistory
+[运行时间：0.591000s] [吞吐率：1.69req/s] [内存消耗：2,228.70kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'getPayOrderHistory',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.10.117:7333',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'content-type' => 'application/json',
+  'origin' => 'http://172.16.10.13:8020',
+  'referer' => 'http://172.16.10.13:8020/bizhifuweb/demo/html/bill.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->getPayOrderHistory[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-24T15:16:43+08:00 ] 172.16.10.146 OPTIONS 172.16.10.117:7333/index/Login/loginSem
+[运行时间：0.054000s] [吞吐率：18.52req/s] [内存消耗：1,993.30kb] [文件加载：44]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'loginSem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.10.117:7333',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'access-control-request-method' => 'POST',
+  'access-control-request-headers' => 'content-type',
+  'origin' => 'http://127.0.0.1:5501',
+  'referer' => 'http://127.0.0.1:5501/demo/html/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->loginSem[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-24T15:16:43+08:00 ] 172.16.10.146 POST 172.16.10.117:7333/index/Login/loginSem
+[运行时间：0.031000s] [吞吐率：32.26req/s] [内存消耗：1,994.03kb] [文件加载：44]
+[ info ] [ LANG ] D:\PHP\WalletApp\WalletAppServer\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'loginSem',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '172.16.10.117:7333',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'content-type' => 'application/json',
+  'origin' => 'http://127.0.0.1:5501',
+  'referer' => 'http://127.0.0.1:5501/demo/html/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Login->loginSem[ D:\PHP\WalletApp\WalletAppServer\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
