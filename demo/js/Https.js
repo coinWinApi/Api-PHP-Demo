@@ -1,1 +1,1 @@
-const httpsurl = 'http://yysyservice.com:8999/index.php/';
+const httpsurl = 'xxxxxx'; //后台请求地址
