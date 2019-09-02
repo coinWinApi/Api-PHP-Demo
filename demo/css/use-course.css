@@ -1,0 +1,119 @@
+.use-course-content{
+    width:360px;
+    margin:0 auto;
+    background:#fcfcfc;
+    box-shadow:0px 3px 12px 3px rgba(0,0,0,0.15);
+    margin-top:94px;
+}
+.use-course-title-top{
+    padding-top:94px;
+    margin-bottom:34px;
+}
+.use-course-title-top>p{
+    margin:0;
+    width:260px;
+    font-size:13px;
+    text-align: center;
+    color:#999999;
+    margin:0 auto;
+    margin-bottom:2px;
+}
+.use-course-title-top>.use-course-check{
+    font-size:16px;
+    color:#666666;
+    margin-bottom: 10px;
+}
+.use-course-content .use-course-btn{
+    width:300px;
+    height:80px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 #888888;
+}
+.use-course-content .use-course-top{
+    margin-bottom:11px;
+}
+.use-course-content .use-course-btn .use-course-btn-left{
+    width:80px;
+    height: 80px;
+    text-align: center;
+    line-height:95px;
+    background:rgba(9,20,40,0.0547);
+}
+.use-course-content .use-course-btn .use-course-btn-left img{
+    width:30px;
+    height:30px;
+}
+.use-course-content .use-course-btn-middle p{
+    margin:0;
+}
+.use-course-content .use-course-btn-middle .use-course-btn-name{
+    font-size:18px;
+    margin-bottom: 6px;
+}
+.use-course-content .use-course-btn-middle .use-course-btn-title{
+    font-size:14px;
+    color:#999999;
+}
+.use-course-content .use-course-btn-right{
+    margin-right:20px;
+}
+.use-course-content .use-course-process{
+    text-align: center;
+    width:100px;
+    margin:0 auto;
+    margin-top:34px;
+    height:17px;
+    position:relative;
+}
+.use-course-content .use-course-process .use-course-processt{
+    color:#274a8f;
+    font-size:12px;
+    font-weight:bold;
+}
+.use-course-content .use-course-process .use-course-delta{
+    width:0;
+    height:0;
+    margin-left:3px;
+    border-width:6px 6px 0;
+    border-style:solid;
+    border-color:#274a8f transparent transparent;
+    position:absolute;
+    top:10px;
+    right:0px;
+}
+.use-course-bottom{
+    width:300px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+.use-course-bottom>.use-course-flex{
+    display: flex;
+    margin-bottom:19px;
+}
+.use-course-bottom>.use-course-flex>img{
+    width:50px;
+    height:50px;
+    margin-right:10px;
+    vertical-align: middle;
+}
+.use-course-bottom>.use-course-flex p{
+    margin:0;
+}
+.use-course-bottom>.use-course-flex>div{
+    width:88px;
+}
+.use-course-bottom>.use-course-flex>div>p{
+    font-size:12px;
+    color:#666666;
+}
+.use-course-bottom>.use-course-flex>div>p:first-child{
+    color:#000000;
+    font-weight:bold;
+    font-size:14px;
+}

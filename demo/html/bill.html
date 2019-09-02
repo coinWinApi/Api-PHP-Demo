@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>账单</title>
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css//bill.css">
+		<script src="../js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="../js/Https.js"></script>
+		<script type="text/javascript" src="../js/lib/vue2.js"></script>
+	</head>
+
+	<body>
+		<div class="bill-content">
+			<header class="public-header">月亮支付</header>
+			<div class="bill-back" onclick="javascript:history.back(-1);" style="cursor:pointer;">返回</div>
+			<div class="bill-main" id="app">
+				<div class="bill-item" v-for="item in information">
+					<div class="bill-left">
+						<img src="../img/fail.png" alt="" v-if="item.Result==-1">
+						<img src="../img/success.png" alt="" v-if="item.Result==1">
+						<img src="../img/wait.png" alt="" v-if="item.Result==0">
+						<div>
+
+							<p>{{item.Symbol}}&nbsp;{{item.Amount | numFilter6}}</p>
+							<p class="bill-time">{{item.Time}}</p>
+						</div>
+					</div>
+					<!--<div class="bill-right">¥{{item.Amount*item.rmbPrice}}</div>-->
+					<div class="bill-right">¥{{ridetion(item.Amount,item.rmbPrice)}}</div>
+				</div>
+				<!--<div class="bill-item">
+					<div class="bill-left">
+						<img src="../img/fail.png" alt="">
+						<div>
+							<p>BTC 2.123456</p>
+							<p class="bill-time">01-03 13:33</p>
+						</div>
+					</div>
+					<div class="bill-right">¥59,134.00</div>
+				</div>-->
+				
+				<div class="billitem none" id="billitem">
+					你还没有订单
+				</div>
+
+			</div>
+		</div>
+		<script>
+			function getformatDecimal(num, decimal) {
+				if(num != null && num != '' && num != undefined && num != NaN) {
+					num = num.toString();
+					var index = num.indexOf('.');
+					if(index !== -1) {
+						num = num.substring(0, decimal + index + 1)
+					} else {
+						num = num.substring(0)
+					}
+					return parseFloat(num).toFixed(decimal)
+				} else {
+					return 0;
+				}
+
+			}
+
+			function accAdd(arg1, arg2) { //加法
+				var r1, r2, m;
+				try {
+					r1 = arg1.toString().split(".")[1].length
+				} catch(e) {
+					r1 = 0
+				}
+				try {
+					r2 = arg2.toString().split(".")[1].length
+				} catch(e) {
+					r2 = 0
+				}
+				m = Math.pow(10, Math.max(r1, r2))
+				return(arg1 * m + arg2 * m) / m
+			}
+
+			function accSub(arg1, arg2) { //减法
+				var r1, r2, m, n;
+				try {
+					r1 = arg1.toString().split(".")[1].length
+				} catch(e) {
+					r1 = 0
+				}
+				try {
+					r2 = arg2.toString().split(".")[1].length
+				} catch(e) {
+					r2 = 0
+				}
+				m = Math.pow(10, Math.max(r1, r2));
+				//last modify by deeka
+				//动态控制精度长度
+				n = (r1 >= r2) ? r1 : r2;
+				return((arg1 * m - arg2 * m) / m).toFixed(n);
+			}
+
+			function accMul(arg1, arg2) { //乘法
+				var m = 0,
+					s1 = arg1.toString(),
+					s2 = arg2.toString();
+				try {
+					m += s1.split(".")[1].length
+				} catch(e) {}
+				try {
+					m += s2.split(".")[1].length
+				} catch(e) {}
+				return Number(s1.replace(".", "")) * Number(s2.replace(".", "")) / Math.pow(10, m)
+			}
+
+			function accDiv(arg1, arg2) { //除法
+				var t1 = 0,
+					t2 = 0,
+					r1, r2;
+				try {
+					t1 = arg1.toString().split(".")[1].length
+				} catch(e) {}
+				try {
+					t2 = arg2.toString().split(".")[1].length
+				} catch(e) {}
+				with(Math) {
+					r1 = Number(arg1.toString().replace(".", ""))
+					r2 = Number(arg2.toString().replace(".", ""))
+					return(r1 / r2) * pow(10, t2 - t1);
+				}
+			}
+
+			$(function() {
+				var id = window.location.href.split("?")[1].split("=")[1];
+				console.log(id)
+				Vue.getsomeorder(id)
+			});
+
+			var Vue = new Vue({
+				el: '#app',
+				data: {
+					information: []
+				},
+
+				mounted: function() {
+
+				},
+				created: function() {
+
+				},
+				filters: {
+					numFilter6: function(value) { // 截取当前数据到小数点后三位
+						return getformatDecimal(value, 6);
+					}
+				},
+				methods: {
+					getsomeorder: function(id) {
+						var _this = this;
+						$.ajax({
+							dataType: "json",
+							type: 'post',
+							url: httpsurl + '/index/Index/getPayOrderHistory',
+							data: JSON.stringify({
+								id: id
+							}),
+							contentType: 'application/json',
+							success: function(data) {
+								console.log(data)
+								if(data.code === 1000) {
+									console.log(data.msg)
+									//JSON.parse(data.data)
+
+									_this.information = JSON.parse(data.data);
+									if(data.data == '' || data.data == null) {
+										$('#billitem').removeClass('none');
+									}
+								} else {
+									$('#billitem').removeClass('none');
+									alert(data.msg)
+								}
+							},
+							error: function(err) {
+								console.log(err)
+							}
+						})
+					},
+					ridetion: function(arg1, arg2) { //加法
+						var m = 0,
+							s1 = arg1.toString(),
+							s2 = arg2.toString();
+						try {
+							m += s1.split(".")[1].length
+						} catch(e) {}
+						try {
+							m += s2.split(".")[1].length
+						} catch(e) {}
+						/*return Number(s1.replace(".", "")) * Number(s2.replace(".", "")) / Math.pow(10, m)*/
+
+						var retu = Number(s1.replace(".", "")) * Number(s2.replace(".", "")) / Math.pow(10, m);
+						retu = getformatDecimal(retu, 2);
+						return retu;
+
+					}
+				}
+			})
+		</script>
+	</body>
+
+</html>

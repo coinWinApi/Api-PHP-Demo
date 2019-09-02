@@ -1,0 +1,64 @@
+.pay-success{
+    box-sizing: border-box;
+    width:360px;
+    margin:0 auto;
+    color:#ffffff;
+    background:#25498e;
+    height:31px;
+    line-height:31px;
+    padding-left:20px;
+}
+.pay-success-content{
+    width:360px;
+    margin:0 auto;
+    box-shadow:0px 3px 12px 3px rgba(0,0,0,0.15);
+    background:#fcfcfc;
+    margin-top:94px;
+}
+.pay-success-content .pay-success-top{
+    padding:11px 20px 11px 20px;
+    box-shadow:0px 3px 12px 3px rgba(0,0,0,0.15);
+    background:#ffffff;
+}
+.pay-success-content .pay-success-top>.pay-success-logo>img{
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+}
+.pay-success-content .pay-success-top>.pay-success-logo>span{
+    font-size:18px;
+}
+.pay-success-content .pay-success-top>.pay-success-flex{
+    display:flex;
+    justify-content: space-between;
+    color:#333333;
+    margin-top:12px;
+}
+.pay-success-content .pay-success-top>.pay-success-flex>div{
+    color:#ff8827;
+}
+.pay-success-content .pay-success-top>.pay-success-flex>div>span{
+    font-weight:bold;
+}
+.pay-success-content .pay-success-bottom{
+    margin-top:91px;
+    text-align: center;
+    padding-bottom: 26px;
+}
+.pay-success-content .pay-success-bottom>img{
+    width:91px;
+    height:91px;
+}
+.pay-success-content .pay-success-bottom>.pay-success-state{
+    margin-top:14px;
+    font-size:14px;
+}
+.pay-success-content .pay-success-bottom>.pay-success-btn{
+    width:201px;
+    margin:0 auto;
+    margin-top:74px;
+    height:45px;
+    line-height:45px;
+    color:#ffffff;
+    background:#2A4D90;
+}

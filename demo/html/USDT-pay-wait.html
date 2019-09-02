@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>USDT等待支付</title>
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/USDT-pay-wait.css">
+		<script src="../js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="../js/Https.js"></script>
+		<script src="../js/qrcode.js"></script>
+	</head>
+
+	<body>
+		<div class="USDT-pay-wait-content">
+			<header class="public-header">月亮支付</header>
+			<div class="USDT-pay-wait-private">
+				<div class="USDT-pay-wait">
+					<span class="USDT-pay-wait-title">等待支付</span>
+					<span class="USDT-pay-wait-time" id="time">10:00</span>
+				</div>
+				<div class="USDT-pay-wait-exchange">
+					<div class="USDT-pay-wait-exchange-left">
+						<img src="../img/BTC-bitebi Copy@2x.png" id="CoinImg" alt="">
+						<span id="CoinName">USDT Omni</span>
+					</div>
+					<div class="USDT-pay-wait-exchange-right" id="CoinPrice">
+						1 USDT ≈ 0 CNY
+					</div>
+				</div>
+				<div class="USDT-pay-wait-qr" id="qrcode">
+					<!-- <img src="../img/位图 2@2x.png" alt=""> -->
+				</div>
+				<div class="USDT-pay-wait-string" id="qrstring"></div>
+				<div class="USDT-pay-wait-copy">
+					<img src="../img/分组 2 copy@2x.png" alt="">
+				</div>
+				<div class="USDT-pay-wait-warm">
+					该地址只接受<span id="CoinTips">USDT(Omni)</span>资产，如充值其他币种将无法找回
+				</div>
+				<div class="USDT-pay-wait-process">
+					<span class="USDT-pay-wait-processt">支付流程介绍</span>
+					<span class="USDT-pay-wait-delta"></span>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		var qrcode = new QRCode(document.getElementById("qrcode"), {
+			width: 100,
+			height: 100
+		});
+		var type = window.location.href.split("?")[1].split("=")[1];
+
+		$(function() {
+			var type = window.location.href.split("?")[1].split("=")[1];
+			let Type = type.toLocaleUpperCase();
+			let clear = '';
+			if(type == 'btc') {
+				$("#CoinName").html('Bitcoin');
+				$("#CoinImg")[0].src = '../img/BTC-bitebi Copy@2x.png';
+				$("#CoinTips").html('Bitcoin');
+				getWallet(Type);
+				getAdress(Type);
+				clear = setInterval(function() {
+					getWallet(Type);
+				}, 30000)
+				setInterval(function() {
+					getQuotallog(Type);
+				}, 3000);
+			} else if(type == 'usdt') {
+				$("#CoinName").html('USDT Omni');
+				$("#CoinImg")[0].src = '../img/USDT@2x.png';
+				$("#CoinTips").html('USDT(Omni)');
+				getWallet(Type);
+				getAdress(Type);
+				clear = setInterval(function() {
+					getWallet(Type);
+					// getQuotallog()
+				}, 30000)
+				setInterval(function() {
+					getQuotallog(Type);
+				}, 3000);
+
+			}
+		});
+
+		var userid = sessionStorage.getItem('userid');
+
+		function getWallet(type) {
+			$.ajax({
+				dataType: "json",
+				type: 'post',
+				url: httpsurl + 'index/Index/getCoinrate',
+				contentType: 'application/json',
+				data: JSON.stringify({
+					type: type
+				}),
+				success: function(data) {
+					console.log(data)
+					if(data.code === 1000) {
+						$("#CoinPrice").html('1 ' + type + ' ≈ ' + data.data + 'CNY');
+					} else if(data.code === 1002) {
+						clearInterval(clear)
+					}
+				},
+				error: function(err) {
+					console.log(err)
+				}
+			})
+		}
+
+		function getAdress(type) {
+			$.ajax({
+				dataType: "json",
+				type: 'post',
+				url: httpsurl + 'index/Index/getCoinaddress',
+				contentType: 'application/json',
+				data: JSON.stringify({
+					type: type,
+					id: userid
+				}),
+				success: function(data) {
+					console.log(data)
+					if(data.code === 1000) {
+						qrcode.makeCode(data.data);
+						$("#qrstring").html(data.data)
+					} else {
+						// alert()
+					}
+				},
+				error: function(err) {
+					console.log(err)
+				}
+			})
+		}
+
+		function getQuotallog(type) {
+			$.ajax({
+				dataType: "json",
+				type: 'post',
+				url: httpsurl + 'index/Index/getQuotallog',
+				contentType: 'application/json',
+				data: JSON.stringify({
+					id: userid,
+					symbol: type
+				}),
+				success: function(data) {
+					console.log(data)
+					if(data.code === 1000) {
+						// console.log(data.data.quota)
+						// console.log(sessionStorage.getItem('userid'));
+						if(data.data.confirm == -1) {
+							console.log('成功')
+							window.location.href = "./pay-fail.html?money=" + data.data.quota + '&type=' + type;
+						} else if(data.data.confirm == 1) {
+							console.log('失败')
+							window.location.href = "./pay-success.html?money=" + data.data.quota + '&type=' + type;
+						} else {
+							console.log('进行')
+							window.location.href = "./check-wait.html?money=" + data.data.quota + '&type=' + type + '&orderid=' + data.data.orderId;
+						}
+					}
+				},
+				error: function(err) {
+					console.log(err)
+				}
+			})
+		}
+		// getWallet('BTC');
+		// getAdress('BTC');
+		var maxtime = 10 * 60;
+
+		function CountDown() {
+			if(maxtime >= 0) {
+				minutes = Math.floor(maxtime / 60);
+				seconds = Math.floor(maxtime % 60);
+				var zminutes;
+				var zseconds;
+				if(minutes < 10) {
+					zminutes = '0' + minutes
+				} else {
+					zminutes = minutes
+				}
+				if(seconds < 10) {
+					zseconds = '0' + seconds;
+				} else {
+					zseconds = seconds;
+				}
+				msg = zminutes + ":" + zseconds;
+
+				document.getElementById('time').innerHTML = msg;
+				--maxtime;
+			} else {
+				clearInterval(timer);
+				document.getElementById('time').innerHTML = '00:00';
+			}
+		}
+		3
+		CountDown()
+		timer = setInterval("CountDown()", 1000);
+	</script>
+
+</html>

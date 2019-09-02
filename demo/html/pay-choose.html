@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>选择支付方式</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css//pay-choose.css">
+    <script src="../js/jquery-1.11.3.min.js"></script>
+
+</head>
+<body>
+    <div class="pay-choose-content">
+        <header class="public-header">月亮支付</header>
+        <div class="pay-choose-bill">
+            <p>
+                <span>正在确认</span>
+                <span class="pay-choose-bill-money"></span>
+            </p>
+            <span id="pay-choose-billspan" style="cursor:pointer;">账单
+                <!-- <img src="../img/fanhui copy 2.png" alt=""> -->
+            </span>
+        </div>
+        <p class="pay-choose-choose">选择货币</p>
+        <p class="pay-choose-intr">请从以下货币选项中选择一个以完成您的支付</p>
+        <div class="pay-choose-btns">
+            <a href="./USDT-pay-wait.html?type=btc">
+            <div class="pay-choose-btn pay-choose-top">
+                <div class="pay-choose-btn-left">
+                    <img src="../img/BTC-bitebi Copy@2x.png" alt="">
+                </div>
+                <div class="pay-choose-btn-middle">
+                    <p class="pay-choose-btn-name">Bitcoin</p>
+                    <!-- <p class="pay-choose-btn-title">网络成本：0.001BTC</p> -->
+                </div>
+                <div class="pay-choose-btn-right">
+                    <img src="../img/fanhui copy 2.png" alt="">
+                </div>
+            </div>
+            </a>
+            <a href="./USDT-pay-wait.html?type=usdt">
+            <div class="pay-choose-btn pay-choose-bottom">
+                <div class="pay-choose-btn-left">
+                    <img src="../img/USDT@2x.png" alt="">
+                </div>
+                <div class="pay-choose-btn-middle">
+                    <p class="pay-choose-btn-name">USDT</p>
+                    <!-- <p class="pay-choose-btn-title">网络成本：0.001USDT</p> -->
+                </div>
+                <div class="pay-choose-btn-right">
+                    <img src="../img/fanhui copy 2.png" alt="">
+                </div>
+            </div>
+            </a>
+        </div>
+          <div class="pay-choose-process" onclick="showmsg()">
+            <span class="pay-choose-processt">支付流程介绍</span>
+            <span class="pay-choose-delta" id="top"></span>
+            <span class="spantop none" id="down"></span>
+        </div>
+         <div class="use-course-bottom none" id="bottom">
+            <div class="use-course-flex">
+                <img src="../img/钱包@2x.png" alt="">
+                <div>
+                    <p>第一步</p>
+                    <p>数字钱包APP</p>
+                    <p>买入数字货币</p>
+                </div>
+            </div>
+            <div class="use-course-flex">
+                <img src="../img/扫码@2x.png" alt="">
+                <div>
+                    <p>第二步</p>
+                    <p>扫码支付</p>
+                    <p>数字货币</p>
+                </div>
+            </div>
+            <div class="use-course-flex">
+                <img src="../img/bianzu 3@2x.png" alt="">
+                <div>
+                    <p>第三步</p>
+                    <p>安参考价格x数</p>
+                    <p>量,计算充值金额</p>
+                </div>
+            </div>
+            <div class="use-course-flex">
+                <img src="../img/bianzu 4@2x.png" alt="">
+                <div>
+                    <p>第四步</p>
+                    <p>安全快速</p>
+                    <p>到账</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/Https.js"></script>
+<script>
+    $(function () {
+        var $jump=$('#pay-choose-billspan');
+        var id=sessionStorage.getItem('userid');
+        var sum;
+        $jump.on('click',function(){
+            window.location.href="./bill.html?id="+id;
+        })
+        $.ajax({
+            dataType:"json",
+            type: 'post',
+            url:httpsurl+'index/Index/getPayBalance',
+            data:JSON.stringify({
+                id:id
+            }),
+            contentType:'application/json',
+            success:function(data){
+                console.log(data)
+                if(data.code===1000){
+                    // console.log(JSON.parse(data.data).UnConfirmBTC)
+                    // console.log(JSON.parse(data.data).UnConfirmUSDT)
+                    sum=JSON.parse(data.data).UnConfirmBTC+JSON.parse(data.data).UnConfirmUSDT;
+                    $('.pay-choose-bill-money').html('￥'+Math.round(sum * 100) / 100);
+                }else{
+                    alert(data.msg)
+                }
+            },
+            error:function(err){
+                console.log(err)
+            }
+        })
+    });
+    
+     function showmsg(){
+    	var aa = $('#bottom').hasClass('none');
+    	console.log('aa'+aa)
+    	if (aa==true) {
+    		 $('#bottom').removeClass('none');
+    		 $('#top').addClass('none');
+    		 $('#down').removeClass('none')
+    	} else{
+    		$('#bottom').addClass('none');
+    		$('#top').removeClass('none');
+    		$('#down').addClass('none')
+    	}
+    }
+</script>
+</html>

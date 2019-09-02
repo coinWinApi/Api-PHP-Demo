@@ -1,0 +1,70 @@
+.check-wait-content{
+    width:360px;
+    margin:0 auto;
+    box-shadow:0px 3px 12px 3px rgba(0,0,0,0.15);
+    background:#fcfcfc;
+    margin-top:94px;
+}
+.check-wait{
+    box-sizing: border-box;
+    width:360px;
+    margin:0 auto;
+    color:#ffffff;
+    background:#25498e;
+    height:31px;
+    line-height:31px;
+    padding-left:20px;
+}
+.check-wait-content>.check-wait-top{
+    padding:11px 20px 11px 20px;
+    box-shadow:0px 3px 12px 3px rgba(0,0,0,0.15);
+    background:#ffffff;
+}
+.check-wait-content>.check-wait-top>.check-wait-logo>img{
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+}
+.check-wait-content>.check-wait-top>.check-wait-logo>span{
+    font-size:18px;
+}
+.check-wait-content>.check-wait-top>.check-wait-flex{
+    display:flex;
+    justify-content: space-between;
+    color:#333333;
+    margin-top:12px;
+}
+.check-wait-content>.check-wait-top>.check-wait-flex>div{
+    color:#ff8827;
+}
+.check-wait-content>.check-wait-top>.check-wait-flex>div>span{
+    font-weight:bold;
+}
+.check-wait-content>.check-wait-bottom{
+    margin-top:91px;
+    text-align: center;
+    padding-bottom: 26px;
+}
+.check-wait-content>.check-wait-bottom>img{
+    width:91px;
+    height:91px;
+}
+.check-wait-content>.check-wait-bottom>.check-wait-state{
+    margin-top:14px;
+    margin-bottom: 6px;
+    font-size:14px;
+}
+.check-wait-content>.check-wait-bottom p{
+    font-size:14px;
+    margin:0;
+    color:#333333;
+}
+.check-wait-content>.check-wait-bottom>.check-wait-btn{
+    width:201px;
+    margin:0 auto;
+    margin-top:28px;
+    height:45px;
+    line-height:45px;
+    color:#ffffff;
+    background:#2A4D90;
+}

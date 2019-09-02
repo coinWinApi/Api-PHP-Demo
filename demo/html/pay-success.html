@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>支付成功</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/pay-success.css">
+</head>
+<body>
+    <div class="pay-success-content">
+        <header class="public-header">月亮支付</header>
+        <div class="pay-success">支付成功</div>
+        <div class="pay-success-top">
+            <div class="pay-success-logo">
+                <img id="CoinImg" src="../img/BTC-bitebi Copy@2x.png" alt="">
+                <span class="type"></span>
+            </div>
+            <!-- <div class="pay-success-flex">
+                <span>数量</span>
+                <div>
+                    <span>1.67</span>&nbsp;BTC
+                </div>
+            </div> -->
+            <div class="pay-success-flex">
+                <span>总价</span>
+                <div>
+                    <span id="money"></span>&nbsp;CNY
+                </div>
+            </div>
+        </div>
+        <div class="pay-success-bottom">
+            <img src="../img/分组@2x.png" alt="">
+            <div class="pay-success-state">支付成功</div>
+            <div class="pay-success-btn" id="return">返回</div>
+        </div>
+    </div>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script>
+        $("#return").on('click',function(){
+            window.location.href = "./pay-choose.html";
+        })
+        var money = window.location.href.split("?")[1].split("&")[0].split("=")[1];
+        var type= window.location.href.split("?")[1].split("&")[1].split("=")[1];
+    
+        console.log(type)
+        if(type=='BTC'){
+            $("#money").html(money)
+            $(".type").html('Bitcoin')
+            $("#CoinImg")[0].src='../img/BTC-bitebi Copy@2x.png';
+        }else{
+            $("#money").html(money)
+            $(".type").html('USDT(Omni)')
+            $("#CoinImg")[0].src='../img/USDT@2x.png';
+        }
+        
+    </script>
+</body>
+</html>

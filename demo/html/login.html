@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="Access-Control-Allow-Origin" content="*"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/oauth2.css?v=20181225">
+    <title>DAccount Service</title>
+    <style>
+        /* .verify-code {
+            width: 120px;
+            height: 34px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.428571429;
+            color: rgb(85, 85, 85);
+            vertical-align: middle;
+            background-color: rgb(255, 255, 255);
+            background-image: none;
+            border: 1px solid rgb(204, 204, 204);
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            background-color: white;
+        }
+
+        .find-pwd {
+            margin-left: 10px;
+        } */
+        .login-content{
+            width:580px;
+            margin:0 auto;
+            margin-top:100px;
+            height:300px;
+            box-shadow: 0 5px 50px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-content">
+    <div style="padding-top: 30px;font-weight:bold;font-size:32px;text-align: center;margin-bottom: 30px;">登录</div>
+    <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12"
+            style="display: inline-block;margin-bottom: 10px;">
+            <div id="the-email">
+                <input type="text" class="form-control typeahead action-login input-lg" id="login_email"
+                    placeholder="用户" >
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12"
+             style="display: inline-block;">
+            <input type="password" class="form-control action-login input-lg" id="login_password"
+                    placeholder="密码">
+        </div>
+     </div>
+     <div class="form-group">
+        <div class="col-lg-offset-1 col-lg-10 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+            <button type="button" id="login_confirm" class="btn btn-primary" data-loading-text="登录中...">
+                登录
+            </button>
+        </div>
+    </div>
+</div>
+
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../js/Https.js" ></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/typeahead.js"></script>
+
+<script>
+    
+    $("#login_confirm").on("click",function(){
+        let account=$("#login_email").val();
+        let password=$("#login_password").val();
+        console.log(account,password)
+        $.ajax({
+            dataType:"json",
+            type: 'post',
+            url:httpsurl+'index/Login/loginSem',
+            data:JSON.stringify({
+                username:account,
+                password:password
+            }),
+            contentType:'application/json',
+            success:function(data){
+                console.log(data)
+                if(data.code===1000){
+                    console.log(data.msg)
+                    sessionStorage.setItem('userid', data.data);
+                    window.location.href = "./showpay.html";
+                }else{
+                    alert(data.msg)
+                }
+            },
+            error:function(err){
+                console.log(err)
+            }
+        })
+        // window.location.href = "./showpay.html";
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.bill-content{
+    width: 360px;;
+    margin:0 auto;
+    margin-top:94px;
+    padding-bottom: 53px;
+    box-shadow:0px 3px 12px 3px rgba(0,0,0,0.15);
+    height:539px;
+}
+.bill-main{
+	width:100%;
+	height:480px;
+	overflow: auto;
+}
+.bill-content .bill-back{
+    background:#25498E;
+    height:32px;
+    line-height:32px;
+    font-size:12px;
+    font-weight:500;
+    color:#ffffff;
+    padding-left:20px;
+}
+.bill-main .bill-item{
+    padding:12px 0 8px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 20px;
+    border-bottom:1px solid #EDEDED;
+    
+}
+.bill-main .bill-item .bill-left{
+    display:flex;
+    align-items: center;
+}
+.bill-main .bill-item .bill-left img{
+    width:28px;
+    height:28px;
+    margin-right:10px;
+    vertical-align: middle;
+}
+.bill-main .bill-item .bill-left p{
+    margin:0;
+    padding:0;
+    color:#333333;
+    font-size:14px;
+    font-weight:400;
+}
+.bill-main .bill-item .bill-left p.bill-time{
+    color:#999999;
+    font-size:12px;
+}
+.billitem{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.none{
+	display: none;
+}

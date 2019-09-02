@@ -1,0 +1,1 @@
+const httpsurl = 'http://yysyservice.com:8999/index.php/';

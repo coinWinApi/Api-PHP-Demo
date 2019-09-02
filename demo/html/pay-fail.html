@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>支付失败</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/pay-fail.css">
+</head>
+<body>
+    <div class="pay-fail-content">
+        <header class="public-header">月亮支付</header>
+        <div class="pay-fail">支付失败</div>
+        <div class="pay-fail-top">
+            <div class="pay-fail-logo">
+                <img id="CoinImg" src="../img/BTC-bitebi Copy@2x.png" alt="">
+                <span class="type"></span>
+            </div>
+            <!-- <div class="pay-fail-flex">
+                <span>数量</span>
+                <div>
+                    <span>0</span>&nbsp;BTC
+                </div>
+            </div> -->
+            <div class="pay-fail-flex">
+                <span>总价</span>
+                <div>
+                    <span id="money"></span>&nbsp;CNY
+                </div>
+            </div>
+        </div>
+        <div class="pay-fail-bottom">
+            <img src="../img/delete.png" alt="">
+            <div class="pay-fail-state">非法交易</div>
+            <div class="pay-fail-btn" id="return">返回</div>
+        </div>
+    </div>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script>
+        $("#return").on('click',function(){
+            window.location.href = "./pay-choose.html";
+        });
+        var money = window.location.href.split("?")[1].split("&")[0].split("=")[1];
+        var type= window.location.href.split("?")[1].split("&")[1].split("=")[1];
+        if(type=='BTC'){
+            $("#money").html(money)
+            $(".type").html('Bitcoin')
+            $("#CoinImg")[0].src='../img/BTC-bitebi Copy@2x.png';
+        }else{
+            $("#money").html(money)
+            $(".type").html('USDT(Omni)')
+            $("#CoinImg")[0].src='../img/USDT@2x.png';
+        }
+    </script>
+</body>
+</html>

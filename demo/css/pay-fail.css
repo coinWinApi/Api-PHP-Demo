@@ -1,0 +1,64 @@
+.pay-fail-content{
+    width:360px;
+    margin:0 auto;
+    box-shadow:0px 3px 12px 3px rgba(0,0,0,0.15);
+    background:#fcfcfc;
+    margin-top:94px;
+}
+.pay-fail{
+    box-sizing: border-box;
+    width:360px;
+    margin:0 auto;
+    color:#ffffff;
+    background:#25498e;
+    height:31px;
+    line-height:31px;
+    padding-left:20px;
+}
+.pay-fail-content .pay-fail-top{
+    padding:11px 20px 11px 20px;
+    box-shadow:0px 3px 12px 3px rgba(0,0,0,0.15);
+    background:#ffffff;
+}
+.pay-fail-content .pay-fail-top>.pay-fail-logo>img{
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+}
+.pay-fail-content .pay-fail-top>.pay-fail-logo>span{
+    font-size:18px;
+}
+.pay-fail-content .pay-fail-top>.pay-fail-flex{
+    display:flex;
+    justify-content: space-between;
+    color:#333333;
+    margin-top:12px;
+}
+.pay-fail-content .pay-fail-top>.pay-fail-flex>div{
+    color:#ff8827;
+}
+.pay-fail-content .pay-fail-top>.pay-fail-flex>div>span{
+    font-weight:bold;
+}
+.pay-fail-content .pay-fail-bottom{
+    margin-top:91px;
+    text-align: center;
+    padding-bottom: 26px;
+}
+.pay-fail-content .pay-fail-bottom img{
+    width:91px;
+    height:91px;
+}
+.pay-fail-content .pay-fail-bottom .pay-fail-state{
+    margin-top:14px;
+    font-size:14px;
+}
+.pay-fail-content .pay-fail-bottom .pay-fail-btn{
+    width:201px;
+    margin:0 auto;
+    margin-top:74px;
+    height:45px;
+    line-height:45px;
+    color:#ffffff;
+    background:#2A4D90;
+}

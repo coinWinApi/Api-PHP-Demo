@@ -1,0 +1,111 @@
+.USDT-pay-wait-content{
+    margin-top:94px;
+}
+.USDT-pay-wait-private{
+    width:360px;
+    margin:0 auto;
+    box-shadow:0px 3px 12px 3px rgba(0,0,0,0.15);
+    padding-bottom: 53px;
+}
+.USDT-pay-wait-private>.USDT-pay-wait{
+    height: 32px;
+    line-height:32px;
+    background:#25498E;
+    display:flex;
+    justify-content: space-between;
+}
+.USDT-pay-wait span{
+    font-size:16px;
+    color:#FFFFFF;
+}
+.USDT-pay-wait>.USDT-pay-wait-title{
+    margin-left:20px;
+}
+.USDT-pay-wait>.USDT-pay-wait-time{
+    margin-right:20px;
+}
+.USDT-pay-wait-exchange{
+    height:43px;
+    line-height:43px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.12);
+    padding:0 20px;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+}
+.USDT-pay-wait-exchange>.USDT-pay-wait-exchange-left>img{
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+}
+.USDT-pay-wait-exchange>.USDT-pay-wait-exchange-left>span{
+    font-size:18px;
+    margin-left:10px;
+}
+.USDT-pay-wait-exchange>.USDT-pay-wait-exchange-right{
+    font-size:14px;
+    color:#ff8827;
+}
+.USDT-pay-wait-qr{
+    width:180px;
+    height:180px;
+    margin: 0 auto;
+    margin-top:61px;
+    margin-bottom:11px;
+}
+.USDT-pay-wait-qr>img{
+    width:180px;
+    height:180px;
+}
+.USDT-pay-wait-string{
+    width:233px;
+    margin:0 auto;
+    height:17px;
+    font-size:12px;
+    margin-top:11px;
+    color:#163167;
+}
+.USDT-pay-wait-copy{
+    width:88px;
+    margin:0 auto;
+    height:27px;
+    margin-top:9px;
+}
+.USDT-pay-wait-copy>img{
+    width:88px;
+    height:27px;
+}
+.USDT-pay-wait-warm{
+    width:325px;
+    margin:0 auto;
+    height:17px;
+    color:#ff8827;
+    font-size:12px;
+    margin-top:19px;
+}
+.USDT-pay-wait-process{
+    text-align: center;
+    width:100px;
+    margin:0 auto;
+    margin-top:147px;
+    height:17px;
+    position:relative;
+}
+.USDT-pay-wait-process>.USDT-pay-wait-processt{
+    color:#274a8f;
+    font-size:12px;
+    font-weight:bold;
+}
+.USDT-pay-wait-process>.USDT-pay-wait-delta{
+    width:0;
+    height:0;
+    margin-left:3px;
+    border-width:6px 6px 0;
+    border-style:solid;
+    border-color:#274a8f transparent transparent;
+    position:absolute;
+    top:10px;
+    right:0px;
+}
